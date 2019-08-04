@@ -22,6 +22,7 @@ def sqrt_or_insult(user_input):
     except ValueError:
         return(shakespearean_insult_gen())
 
+"""
 while True:
     user_input = input()
 
@@ -29,3 +30,4 @@ while True:
         break
 
     print(str(sqrt_or_insult(user_input)) + "\n")
+"""
